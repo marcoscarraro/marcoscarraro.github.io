@@ -1,0 +1,111 @@
+.logo_menu{
+    background-image: url("../img/logo.png");
+    background-size: 257px 100px;
+    background-repeat: no-repeat;
+
+    width: 299px;
+    height: 90px;
+
+    position: absolute;
+    top: -2px;
+    left: 42%;
+    margin-left: -100px;
+}
+
+.navbar-nav>li>a{
+    height: 90px;
+    margin-left: -4px;
+    padding-top: 32px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.telefone_suporte{
+    padding-left: 34px;
+    padding-top: 9px;
+    width: 310px;
+    height: 34px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    border-radius: 0px 0px 5px 5px;
+    color: #555;
+}
+
+.telefone_direita{
+    margin-top: -24px; 
+    margin-left: 25px; 
+}
+
+/* Fix para o menu*/
+body {
+    min-height: 2000px;
+    padding-top: 120px;
+}
+
+.quem_somos{
+    background-color: #42A2CE;
+    color: #FFF;
+}
+
+.servicos{
+    background-color: #FCFCFC;
+    color: #44A4D3;
+}
+
+.servicos>h3,.servicos>div>div>h3{
+    color: #0A2940;   
+}
+
+.produtos{
+    background-color: #42A2CE;
+    color: #FFF;
+}
+
+.contato{
+    background-color: #FCFCFC;
+    color: #44A4D3;   
+}
+
+.contato>div>div>h3{
+    color: #0A2940;   
+}
+
+.contato_conteudo{
+    margin-top: -38px;
+}
+
+.texto-preto{
+    color: #777;
+}
+
+/* Tamanho das paginas */
+#home{
+    height: 543px;
+}
+
+#quem_somos{
+    height: 535px;
+}
+
+#servicos{
+    height: 535px;
+}
+
+#produtos{
+    height: 535px;
+}
+
+#contato{
+    height: 550px;
+}
+
+/* Estilo para mensagem de erro form*/
+label.error { 
+    float: none; 
+    color: red; 
+    margin: 0 .5em 0 0; 
+    vertical-align: top; 
+    font-size: 11px 
+}

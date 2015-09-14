@@ -1,0 +1,78 @@
+.logo_menu{
+background-image: url("../img/logo.png");
+background-size: 257px 100px;
+background-repeat: no-repeat;
+
+width: 299px;
+height: 90px;
+
+position: absolute;
+top: -2px;
+left: 42%;
+margin-left: -100px;
+}
+
+.navbar-nav>li>a{
+    height: 90px;
+    padding-top: 32px;
+}
+
+.telefone_suporte{
+    padding-left: 34px;
+    padding-top: 9px;
+    width: 310px;
+    height: 34px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    border-radius: 0px 0px 5px 5px;
+    color: #555;
+}
+
+.telefone_direita{
+   margin-top: -24px; 
+   margin-left: 25px; 
+}
+
+/* Fix para o menu*/
+body {
+  min-height: 2000px;
+  padding-top: 120px;
+}
+
+.quem_somos{
+    background-color: #42A2CE;
+    color: #FFF;
+}
+
+.servicos{
+background-color: #506F9B;
+color: #FFF;
+}
+
+.produtos{
+background-color: #2FE2BF;
+color: #FFF;
+}
+
+/* Tamanho das paginas */
+#home{
+    height: 543px;
+}
+
+#quem_somos{
+    height: 535px;
+}
+
+#servicos{
+    height: 535px;
+}
+
+#produtos{
+    height: 535px;
+}
+
+#contato{
+    height: 535px;
+}
